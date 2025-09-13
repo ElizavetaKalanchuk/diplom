@@ -10,7 +10,6 @@ import page.PaymentTypesPage;
 import static com.codeborne.selenide.Selenide.open;
 
 public class DebitCardTest {
-
     String approvedCardNumber = DataHelper.getCardApproved().getCardNumber();
     String declinedCardNumber = DataHelper.getCardDeclined().getCardNumber();
     String validMonth = DataHelper.getRandomMonth(1);
