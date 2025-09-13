@@ -11,17 +11,14 @@
 Завершились с ошибкой - 1
 
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2d6b912-e5c4-4a39-b10f-653072f89d58" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8117bec7-0ee6-4501-bd2c-23796585d2a5" />
+
 Общие рекомендации:
 Обновить локаторы элементов - обеспечить стабильное нахождение элементов на странице
 Добавить тестовые метки - для упрощения написания селекторов при написании автотестов
 Исправление дефектов - найденных при тестировании функциональности платежей
 Настроить environment variables - для стабильной работы тестов в разных окружениях
-
-
-
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2d6b912-e5c4-4a39-b10f-653072f89d58" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8117bec7-0ee6-4501-bd2c-23796585d2a5" />
 
 
 
