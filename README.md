@@ -25,19 +25,14 @@
 
 ## Запуск приложения
 * В папке artifacts находится JAR-файл: aqa-shop.jar
-* Для каждого типа базы данных используются отдельные конфигурационные файлы (в корне проекта):
-    * application-postgres.properties — для PostgreSQL
-    * application-mysql.properties — для MySQL
 * во втором терминале выполнить команды для запуска:
-- для с Postgres: java -jar artifacts/aqa-shop.jar --spring.profiles.active=postgres
-- для MySQL: java jar artifacts/aqa-shop.jar --spring.profiles.active=mysql
+java -jar artifacts/aqa-shop.jar
 
 ## Подключение к БД
 в третьем терминале выполнить команды:
 * для с Postgres: docker compose exec postgres psql -U app -d app
 
 * для MySQL: docker compose exec mysql mysql -u app -p app
-    * Ввести пароль pass (при написании пароль отображаться не будет)
 
 ## Запуск автотестов
 Тесты написаны с использованием JUnit 5 + Selenide + REST Assured.
