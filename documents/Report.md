@@ -1,6 +1,27 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a23e191-c0ac-4524-88e6-b192ea1fe6f4" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7e7bc780-7d40-40ba-85fb-5aaebe70f552" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/047a80d1-d8a6-4881-a9f4-cf0bb09d05e2" />
+Проведено автоматизированное тестирование функциональности платежей по кредитным и дебетовым картам в веб-приложении. В процессе тестирования реализованы как позитивные, так и негативные сценарии, охватывающие различные аспекты ввода данных для оплаты. Для тестирования использовались инструменты Selenide и Allure для автоматизации и визуализации результатов. Тестирование проводилось с использованием базы данных: MySQL.
 
-Ссылка на отчет http://localhost:63342/diplom/build/reports/allure-report/allureReport/index.html?_ijt=utp6m8pl5upjk3gmvtemrvtv1u&_ij_reload=RELOAD_ON_SAVE#suites/6cd4b2f966bb4fa25dcefedee282d48c/63997cfcad439963/
+Общее количество тест-кейсов составило 18 штук (процент выполненных тестов 66,66%):
+
+Оплата по кредитной карте (CreditCardTest):
+Выполненные тесты - 10
+Завершились с ошибкой - 5
+
+Оплата по дебетовой карте (DebitCardTest):
+Выполненные тесты - 2
+Завершились с ошибкой - 1
+
+
+Общие рекомендации:
+Обновить локаторы элементов - обеспечить стабильное нахождение элементов на странице
+Добавить тестовые метки - для упрощения написания селекторов при написании автотестов
+Исправление дефектов - найденных при тестировании функциональности платежей
+Настроить environment variables - для стабильной работы тестов в разных окружениях
+
+
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2d6b912-e5c4-4a39-b10f-653072f89d58" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8117bec7-0ee6-4501-bd2c-23796585d2a5" />
+
+
 
